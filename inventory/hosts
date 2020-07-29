@@ -1,8 +1,8 @@
-stion_tower]
-bastion.6b60.example.opentlc.com
+[bastion_tower]
+bastion.8185.example.opentlc.com
 
 [workstation]
-workstation-262e.blue.osp.opentlc.com
+workstation-ed32.blue.osp.opentlc.com
 
 [all:vars]
 ansible_user=cloud-user
