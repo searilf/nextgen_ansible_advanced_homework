@@ -39,7 +39,7 @@
   - test.servers
    
 - name: OpenStack servers
-  os_server_facts:
+  os_server_info:
     cloud: openstack
   register: result
   tags:
