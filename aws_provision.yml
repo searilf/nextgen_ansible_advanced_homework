@@ -26,8 +26,8 @@
     - name: create credentials
       copy:
         content: |
-          export username={{ param_user }}
-          export password={{ param_password }}
+          export username='{{ param_user }}'
+          export password='{{ param_password }}'
           export uri=https://labs.opentlc.com
         dest: /root/credential.rc
         mode: 0755
@@ -47,4 +47,4 @@
         chdir: /root
     - name: Wait for mail
       pause:
-        minutes: 20
+        minutes: 10
